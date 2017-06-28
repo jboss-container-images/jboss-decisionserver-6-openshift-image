@@ -1,0 +1,7 @@
+# JBoss BRMS Realtime Decision Server 6.3 for OpenShift container image
+
+NOTE: Extends link:https://github.com/jboss-container-images/jboss-kieserver-6-openshift-image[jboss-kieserver-6-openshift-image]
+
+# License
+
+See link:LICENSE[LICENSE] file.
