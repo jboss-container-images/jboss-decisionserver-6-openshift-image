@@ -1,6 +1,6 @@
 name: "jboss-decisionserver-6/decisionserver64-openshift"
 version: "1.1"
-description: "Platform for executing business rules on JBoss BRMS Realtime Decision Server 6.4."
+description: "JBoss BRMS Realtime Decision Server 6.4 for OpenShift"
 from: "jboss-kieserver-6/kieserver64-openshift:1.1"
 user: 185
 labels:
