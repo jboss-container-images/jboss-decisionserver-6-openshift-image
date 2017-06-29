@@ -1,7 +1,7 @@
 name: "jboss-decisionserver-6/decisionserver63-openshift"
 version: "1.5"
-from: "jboss-kieserver-6/kieserver63-openshift:1.5"
 description: "Platform for executing business rules on JBoss BRMS Realtime Decision Server 6.3."
+from: "jboss-kieserver-6/kieserver63-openshift:1.5"
 user: 185
 labels:
     - name: "io.k8s.description"
@@ -28,3 +28,7 @@ envs:
       value: "6.3.4.GA"
 dogen:
     version: 2.1.0
+    plugins:
+        dist_git:
+            repo: jboss-decisionserver-6-docker
+            branch: ce-1.5-openshift-decisionserver-6.3-jdk-8-rhel-7
