@@ -23,11 +23,11 @@ envs:
     - name: "JBOSS_PRODUCT"
       value: "decisionserver"
     - name: "JBOSS_DECISIONSERVER_VERSION"
-      value: "6.4.2.GA"
+      value: "6.4.4.GA"
     - name: "PRODUCT_VERSION"
-      value: "6.4.2.GA"
+      value: "6.4.4.GA"
 dogen:
-    version: 2.4.0
+    version: 2.4.1
     plugins:
         dist_git:
             repo: jboss-decisionserver-6-docker
