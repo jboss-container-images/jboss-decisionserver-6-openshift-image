@@ -1,9 +1,9 @@
 schema_version: 1
 
 name: "jboss-decisionserver-6/decisionserver64-openshift"
-version: "1.1"
+version: "1.2"
 description: "JBoss BRMS Realtime Decision Server 6.4 for OpenShift"
-from: "jboss-kieserver-6/kieserver64-openshift:1.1"
+from: "jboss-kieserver-6/kieserver64-openshift:1.2"
 labels:
     - name: "io.k8s.description"
       value: "Platform for executing business rules on JBoss BRMS Realtime Decision Server 6.4."
@@ -32,4 +32,4 @@ run:
 osbs:
       repository:
             name: jboss-decisionserver-6-docker
-            branch: ce-1.1-openshift-decisionserver-6.4-jdk-8-rhel-7
+            branch: ce-1.2-openshift-decisionserver-6.4-jdk-8-rhel-7
