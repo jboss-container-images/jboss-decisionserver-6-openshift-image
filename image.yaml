@@ -5,6 +5,8 @@ version: "1.2"
 description: "JBoss BRMS Realtime Decision Server 6.4 for OpenShift"
 from: "jboss-kieserver-6/kieserver64-openshift:1.2"
 labels:
+    - name: "com.redhat.component"
+      value: "jboss-decisionserver-6-decisionserver64-openshift-container"
     - name: "io.k8s.description"
       value: "Platform for executing business rules on JBoss BRMS Realtime Decision Server 6.4."
     - name: "io.k8s.display-name"
@@ -31,5 +33,5 @@ run:
       user: 185
 osbs:
       repository:
-            name: jboss-decisionserver-6-docker
-            branch: ce-1.2-openshift-decisionserver-6.4-jdk-8-rhel-7
+            name: containers/jboss-decisionserver-6
+            branch: jb-decisionserver-6.4-openshift-rhel-7
