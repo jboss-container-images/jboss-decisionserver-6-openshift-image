@@ -25,7 +25,11 @@ template_dirs = [ 'secrets', 'templates']
 amq_ssl_desc = None
 
 LINKS =  {
-          "jboss-decisionserver64-openshift:1.4": "../../decisionserver/decisionserver-openshift{outfilesuffix}[`jboss-decisionserver-6/decisionserver64-openshift`]",
+          "jboss-decisionserver64-openshift:1.0": "../../templates/decisionserver-openshift{outfilesuffix}[`jboss-decisionserver-6/decisionserver64-openshift`]",
+          "jboss-decisionserver64-openshift:1.1": "../../templates/decisionserver-openshift{outfilesuffix}[`jboss-decisionserver-6/decisionserver64-openshift`]",
+          "jboss-decisionserver64-openshift:1.2": "../../templates/decisionserver-openshift{outfilesuffix}[`jboss-decisionserver-6/decisionserver64-openshift`]",
+          "jboss-decisionserver64-openshift:1.3": "../../templates/decisionserver-openshift{outfilesuffix}[`jboss-decisionserver-6/decisionserver64-openshift`]",
+          "jboss-decisionserver64-openshift:1.4": "../../templates/decisionserver-openshift{outfilesuffix}[`jboss-decisionserver-6/decisionserver64-openshift`]",
 }
 
 PARAMETER_VALUES = {"APPLICATION_DOMAIN": "secure-app.test.router.default.local", \
