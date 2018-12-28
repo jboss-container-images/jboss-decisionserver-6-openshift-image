@@ -1,5 +1,5 @@
 {
-    "kind": "List",
+    "kind": "ImageStreamList",
     "apiVersion": "v1",
     "metadata": {
         "name": "decisionserver62-image-stream",
@@ -16,6 +16,7 @@
                 "name": "jboss-decisionserver62-openshift",
                 "annotations": {
                     "openshift.io/display-name": "Red Hat JBoss BRMS 6.2 decision server",
+                    "openshift.io/provider-display-name": "Red Hat, Inc.",
                     "version": "1.4.17"
                 }
             },
