@@ -2,9 +2,15 @@ schema_version: 1
 
 name: "jboss-decisionserver-6/decisionserver64-openshift"
 description: "JBoss BRMS Realtime Decision Server 6.4 for OpenShift"
-version: "1.4"
+version: "1.5"
 from: "rhel7:7-released"
 labels:
+    - name: "org.jboss.product"
+      value: "decisionserver"
+    - name: "org.jboss.product.version"
+      value: "6.4.11.GA"
+    - name: "org.jboss.product.decisionserver.version"
+      value: "6.4.11.GA"
     - name: "com.redhat.component"
       value: "jboss-decisionserver-6-decisionserver64-openshift-container"
     - name: "io.k8s.description"
