@@ -139,7 +139,7 @@
                             "supports": "decisionserver:6.4,java:8",
                             "sampleRepo": "https://github.com/jboss-openshift/openshift-quickstarts.git",
                             "sampleContextDir": "decisionserver/hellorules",
-                            "sampleRef": "1.3",
+                            "sampleRef": "1.4",
                             "version": "1.5",
                             "openshift.io/display-name": "Red Hat JBoss BRMS 6.4 decision server"
                         },
