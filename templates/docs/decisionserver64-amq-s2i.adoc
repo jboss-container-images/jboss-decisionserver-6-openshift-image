@@ -189,7 +189,7 @@ for more information.
 
 .${APPLICATION_NAME}
 ----
-/bin/bash -c /opt/eap/bin/readinessProbe.sh
+/bin/bash -c /opt/eap/bin/livenessProbe.sh
 ----
 
 
@@ -255,10 +255,14 @@ for more information.
 =====  Volumes
 
 |=============
-|Deployment |Name  | mountPath | Purpose | readOnly
+|Deployment |Name  | mountPath | Purpose | readOnly 
 
 |`${APPLICATION_NAME}` | decisionserver-keystore-volume | `/etc/decisionserver-secret-volume` | ssl certs | True
 |=============
 
 
 === External Dependencies
+
+
+
+

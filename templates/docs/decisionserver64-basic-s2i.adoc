@@ -158,7 +158,7 @@ for more information.
 
 .${APPLICATION_NAME}
 ----
-/bin/bash -c /opt/eap/bin/readinessProbe.sh
+/bin/bash -c /opt/eap/bin/livenessProbe.sh
 ----
 
 
@@ -194,3 +194,7 @@ for more information.
 
 
 === External Dependencies
+
+
+
+
